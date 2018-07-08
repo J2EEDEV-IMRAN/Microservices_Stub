@@ -1,7 +1,6 @@
 package com.example.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jmx.export.annotation.ManagedAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,7 +13,7 @@ public class ControllerPerson {
 	@Autowired
 	public ServicePerson servicePerson;
 	
-	@RequestMapping(value="/getPersonData",method=RequestMethod.GET)
+	@RequestMapping(value="/",method=RequestMethod.GET)
 	public ServicePerson getPersonData()
 	{
 		servicePerson.setId(1);
