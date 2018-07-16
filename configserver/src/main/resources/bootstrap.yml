@@ -1,0 +1,6 @@
+encrypt:
+  keyStore:
+    location: classpath:/clientcon.jks
+    password: 123456
+    alias: clientcon
+secret: clientcon
