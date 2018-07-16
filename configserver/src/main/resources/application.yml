@@ -7,7 +7,7 @@ spring:
         enabled: false
       server:
         native:
-          searchLocations: C:/Users/config
+          searchLocations: /home/imran/config
         encrypt:
           enabled: true
 server:
