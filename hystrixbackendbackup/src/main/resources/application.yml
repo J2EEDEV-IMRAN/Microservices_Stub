@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: https://localhost:8081 //no need to write this in hystrix backend and hystrix backend backend
+server:
+  port: 8086
