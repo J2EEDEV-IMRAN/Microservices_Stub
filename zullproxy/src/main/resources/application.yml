@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    FRISTCLIENT:
+      path: /getProjectName
+      service-id: FRISTCLIENT
+strip-prefix: false
+         
+        
